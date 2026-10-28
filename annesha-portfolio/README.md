@@ -1,32 +1,85 @@
-# Annesha Chakraborty — Personal Portfolio (High-contrast version)
+# Annesha Chakraborty — Personal Portfolio
+Deployed Link : 
 
-This version is deliberately direct and information-forward: strong typography, clear project contributions and metrics, no decorative illustrations, and dedicated spaces for your actual photos.
+Welcome to my personal portfolio! I'm a Data Science student at IIT Madras, interested in Machine Learning, Data Analytics, and building AI-powered solutions.
+This portfolio showcases my projects, technical skills, achievements, and experience.
 
-## Run it
-1. Extract the ZIP.
-2. Open `index.html` in your browser, or open the folder in VS Code and use Live Server.
+## ✨ Features
 
-## Add your own photos
-Put your own images inside `assets/` and use these exact filenames (JPG is recommended). The placeholders disappear automatically when a valid image is present.
+- Personal introduction and profile
+- Projects and technical skills
+- Hackathon achievements and experience
+- Personal photos from events and projects
+- Links to GitHub and LinkedIn
 
-- `profile.jpg` — a clear portrait of you
-- `agrovani-demo.jpg` — AgroVani interface, team working, or pitch/demo photo
-- `aditya-l1.jpg` — your solar-flare graph, notebook, or presentation
-- `plantmd.jpg` — PlantMD prediction/output screenshot
-- `coffee-project.jpg` — coffee model screenshot or evaluation chart
-- `iit-madras.jpg` — your campus or student-life photo
-- `hackcore-winning.jpg` — award-stage / certificate presentation photo
-- `hackcore-team.jpg` — SeedCoders team photo
-- `paytm-hackathon.jpg` — Paytm Build Hackathon photo
-- `id-card-or-campus.jpg` — optional personal IITM/event memory. **Do not publish an ID card with visible ID numbers, QR codes, barcodes, date of birth, or other sensitive details.** A campus photo is safer and works just as well.
+## 📁 Project Structure
 
-You do not need to use every slot. Use photos you own or have permission to publish. For best results, crop profile shots vertically and project/event photos horizontally. The page will show an explicit filename placeholder until you add an image.
+```text
+Portfolio/
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images/
+│       ├── profile.jpg
+│       ├── hackathon.jpg
+│       ├── iitm.jpg
+│       └── achievements/
+└── README.md
+```
 
-## Resume
-Place your PDF in this folder as `resume.pdf`, then change each `data-resume-link` to `data-resume-link data-resume-ready="true"` in `index.html`.
+*Note: The structure above is an example. File and folder names should match my actual repository.*
 
-## Before publishing
-- Verify all project metrics against the final code/results.
-- Add project repository links where appropriate.
-- Check that photos do not expose private information or other people's faces without permission.
-- Preview on mobile and desktop.
+## 🖼️ Photos
+
+I store my portfolio photos in the `assets/images/` directory.
+
+To add or change a photo:
+
+1. Add the image to the appropriate folder.
+2. Reference its relative path in the HTML.
+
+Example:
+
+```html
+<img src="assets/images/profile.jpg" alt="My profile photo">
+```
+
+I use relative paths so the images work when the project is hosted on GitHub Pages.
+
+## 🚀 Run Locally
+
+This is a static website built with HTML, CSS, and JavaScript. No backend or package installation is required.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Annathearmy/Portfolio.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd Portfolio
+   ```
+
+3. Open `index.html` in your browser, or use the **Live Server** extension in VS Code.
+
+
+
+## 🛠️ Built With
+
+- HTML5
+- CSS3
+- JavaScript
+- Git and GitHub
+
+## 🔗 Connect With Me
+
+- **GitHub:** [Annathearmy](https://github.com/Annathearmy)
+- **LinkedIn:** [Annesha Chakraborty](https://linkedin.com/in/annesha-chakraborty2007)
+
+---
+
+Thanks for visiting my portfolio!
+
